@@ -1,0 +1,35 @@
+{
+  "name": "money-manager",
+  "version": "1.0.0",
+  "description": "Money Manager - Track income, expenses, and budgets",
+  "main": "frontend/app.js",
+  "scripts": {
+    "dev": "node preview-server.js",
+    "start": "node preview-server.js",
+    "build": "echo 'Frontend is static, no build needed'",
+    "cap:init": "npx cap init 'Money Manager' 'com.freemoney.manager' --web-dir frontend",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open": "npx cap open android"
+  },
+  "keywords": [
+    "money",
+    "manager",
+    "budget",
+    "finance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^6.0.2",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "jeep-sqlite": "^2.8.0",
+    "mysql2": "^3.24.6"
+  }
+}

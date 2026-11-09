@@ -1,0 +1,34 @@
+{
+  "app_name": "Money Manager",
+  "version": "1.0",
+  "last_updated": null,
+  "transactions": [],
+  "budgets": [],
+  "categories": {
+    "salary": { "label": "Salary", "icon": "bi-cash-coin", "color": "#10b981", "types": ["income"] },
+    "freelance": { "label": "Freelance", "icon": "bi-laptop", "color": "#0ea5e9", "types": ["income"] },
+    "investment": { "label": "Investment", "icon": "bi-graph-up-arrow", "color": "#8b5cf6", "types": ["income"] },
+    "shopping": { "label": "Shopping", "icon": "bi-bag", "color": "#f43f5e", "types": ["expense"] },
+    "groceries": { "label": "Groceries", "icon": "bi-basket", "color": "#22c55e", "types": ["expense"] },
+    "vegetables": { "label": "Vegetables", "icon": "bi-flower1", "color": "#84cc16", "types": ["expense"] },
+    "medicine": { "label": "Medicine", "icon": "bi-capsule", "color": "#ef4444", "types": ["expense"] },
+    "fish": { "label": "Fish", "icon": "bi-water", "color": "#06b6d4", "types": ["expense"] },
+    "meat": { "label": "Meat", "icon": "bi-bacon", "color": "#f97316", "types": ["expense"] },
+    "food": { "label": "Food", "icon": "bi-egg-fried", "color": "#eab308", "types": ["expense"] },
+    "snack": { "label": "Snack", "icon": "bi-cup-hot", "color": "#d946ef", "types": ["expense"] },
+    "lunch": { "label": "Lunch", "icon": "bi-egg", "color": "#a16207", "types": ["expense"] },
+    "dinner": { "label": "Dinner", "icon": "bi-moon-stars", "color": "#7c3aed", "types": ["expense"] },
+    "drink": { "label": "Drink", "icon": "bi-cup-straw", "color": "#0d9488", "types": ["expense"] },
+    "asset": { "label": "Asset", "icon": "bi-box-seam", "color": "#6366f1", "types": ["expense"] },
+    "transport": { "label": "Transport", "icon": "bi-bus-front", "color": "#0284c7", "types": ["expense"] },
+    "utilities": { "label": "Utilities", "icon": "bi-lightning-charge", "color": "#f59e0b", "types": ["expense"] },
+    "entertainment": { "label": "Entertainment", "icon": "bi-controller", "color": "#ec4899", "types": ["expense"] },
+    "household": { "label": "Household", "icon": "bi-house", "color": "#64748b", "types": ["expense"] },
+    "self-care": { "label": "Self Care", "icon": "bi-scissors", "color": "#f472b6", "types": ["expense"] },
+    "other": { "label": "Other", "icon": "bi-three-dots", "color": "#94a3b8", "types": ["income", "expense"] }
+  },
+  "settings": {
+    "currency": "৳",
+    "currency_code": "BDT"
+  }
+}

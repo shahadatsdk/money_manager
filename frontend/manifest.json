@@ -1,0 +1,19 @@
+{
+  "name": "Money Manager",
+  "short_name": "MoneyMgr",
+  "description": "Track your income, expenses, and budgets",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f5fb",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["finance", "productivity"]
+}
